@@ -1,3 +1,59 @@
-body{
-    background: rgb(246, 244, 244);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 500px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+div h2{
+    padding: 15px 0;
+}
+
+div ul li {
+     padding: 5px 20px;
+     background: rgb(247, 247, 247);
+     margin: 5px 0;
+     font-size: 20px;
+     transition: .2s ease-in-out;
+     list-style: lower-alpha;
+     border: 1px solid;
+     cursor: pointer;
+    
+}
+
+div ul li:hover{
+    background: #07928d;
+    color: #fff;
+}
+div ul li::marker{
+    color: black;
+    font-size: 25px;
+}
+
+
+.complete button{
+    background: #07928d;
+    border: 0;
+    outline: none;
+    padding: 5px 25px;
+    margin: 10px 0;
+    font-size: 18px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+}
+.complete button:hover{
+    border: 1px solid #07928d;
+    color: #07928d;
+    background: transparent;
+}
+
+.complete p {
+    font-size: 32px;
 }
